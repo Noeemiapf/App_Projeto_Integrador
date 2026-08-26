@@ -1,0 +1,57 @@
+docs/diagrama-caso-de-uso.md
+# Diagrama de Classes
+
+## Sistema: Plataforma de Cursos Online
+
+### Classes principais
+
+**Aluno**
+- id
+- nome
+- email
+- senha
+- cadastrar()
+- fazerLogin()
+- inscreverCurso()
+- acompanharProgresso()
+
+**Administrador**
+- id
+- nome
+- email
+- senha
+- cadastrarCurso()
+- editarCurso()
+- excluirCurso()
+- gerenciarUsuarios()
+
+**Curso**
+- id
+- nome
+- descricao
+- categoria
+- cargaHoraria
+- cadastrar()
+- editar()
+- excluir()
+
+**Inscricao**
+- id
+- dataInscricao
+- status
+- realizarInscricao()
+- cancelarInscricao()
+
+**Progresso**
+- id
+- percentual
+- atualizarProgresso()
+- consultarProgresso()
+
+### Relacionamentos
+
+- Um Aluno pode realizar várias Inscrições.
+- Um Curso pode possuir várias Inscrições.
+- Uma Inscrição pertence a um Aluno e a um Curso.
+- Um Aluno possui um Progresso em cada curso inscrito.
+- O Administrador gerencia os Cursos e os Usuários.
