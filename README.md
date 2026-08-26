@@ -1,30 +1,20 @@
+Plataforma de Cursos On-line
 
-# Diagrama de Caso de Uso
+Problema identificado:
+Atualmente, muitas pessoas têm dificuldade para encontrar cursos on-line de forma organizada e também para acompanhar quais conteúdos já estudaram. Quando os materiais ficam espalhados em diferentes lugares, o estudante pode ter dificuldade para organizar seus estudos e acompanhar seu progresso.
 
-## Sistema: Plataforma de Cursos Online
+Proposta de solução:
+A proposta é desenvolver uma plataforma de cursos on-line (E-learning) que reúna cursos e conteúdos educacionais em um único ambiente.
+A plataforma permitirá que o usuário realize seu cadastro, faça login, visualize os cursos disponíveis, escolha um curso, tenha acesso às aulas e acompanhe seu progresso.
+Além disso, o administrador poderá cadastrar, editar e excluir cursos, facilitando o gerenciamento dos conteúdos disponíveis na plataforma.
 
-### Atores
-- Aluno
-- Administrador
-
-### Casos de uso do Aluno
-- Criar cadastro
-- Fazer login
-- Visualizar catálogo de cursos
-- Visualizar detalhes do curso
-- Inscrever-se em um curso
-- Acessar curso
-- Acompanhar progresso
-
-### Casos de uso do Administrador
-- Fazer login
-- Cadastrar curso
-- Editar curso
-- Excluir curso
-- Gerenciar usuários
-- Visualizar inscrições
-
-### Relacionamentos
-O Aluno pode realizar seu cadastro, fazer login, visualizar os cursos disponíveis, consultar os detalhes, realizar inscrições, acessar os conteúdos e acompanhar seu progresso.
-
-O Administrador é responsável pelo gerenciamento dos cursos, usuários e inscrições da plataforma.
+Objetivo:
+O objetivo do projeto é criar um ambiente simples e organizado para facilitar o acesso a cursos on-line e permitir que os estudantes acompanhem seu desenvolvimento durante os estudos.
+Principais funcionalidades
+Cadastro de usuários;
+Login;
+Visualização dos cursos;
+Matrícula em cursos;
+Acesso às aulas;
+Acompanhamento do progresso;
+Cadastro e gerenciamento de cursos pelo administrador.
